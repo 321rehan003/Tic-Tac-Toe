@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(29, 22, 22);
+    text-align: center;
+}
+.page1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 40px;
+}
+.heading{
+    color: rgb(6, 133, 245);
+    font-size: xxx-large;
+}
+.startGame{
+    background-color: rgb(6, 133, 245);
+    color: antiquewhite;
+    border-radius: 25px;
+    padding: 3px;
+    font-size: large;
+}
+.page2{
+    display: none;
+}
+.content{
+    width: 50vw;
+    height: 50vh;
+    padding: 14px;
+    margin-left: 27%;
+    margin-top: 20px;
+    
+}
+.container{
+    width: 48vw;
+    height: 48vh;
+    padding: 8px;
+    background-color: rgb(13, 110, 194);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1px ;
+}
+.btns{
+    width: 33%;
+    height: 33%;
+    color: aqua;
+    font-size: xx-large;
+}
+.resetBtn{
+    margin-top: 30px;
+    background-color: rgb(245, 103, 56);
+    color: rgb(36, 35, 34);
+    border-radius: 25px;
+    padding: 6px;
+    font-size: x-large;
+}
+.win{
+    color: rgb(194, 204, 212);
+    font-size: xxx-large;
+}
+.hide{
+    display: none;
+}
+.replayBtn{
+    margin-top: 30px;
+    background-color: rgb(44, 185, 120);
+    color: rgb(36, 35, 34);
+    border-radius: 25px;
+    padding: 6px;
+    font-size: x-large;
+}
+.exitBtn{
+    margin-top: 30px;
+    background-color: rgb(245, 56, 56);
+    color: rgb(36, 35, 34);
+    border-radius: 25px;
+    padding: 6px;
+    font-size: x-large;
+}
+.turnShow{
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.turn{
+    display: flex;
+}
+.turnchange{
+    background-color: transparent;
+    color: azure;
+    
+}
+.Xturn, .Oturn{
+    background-color: rgb(6, 133, 245);
+    border:solid black;
+    border-left: 22px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

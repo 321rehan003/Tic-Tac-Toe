@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page1" class="page1">
+      <div>
+        <h1 class="heading">TIC TAC TOE</h1>
+      </div>
+      <div>
+        <button id="startGameBtn" class="startGame">Start Game</button>
+      </div>
+    </div>
+    <main>
+      <div id="page2" class="page2">
+        <div class="content">
+          <div class="turnShow" id="turnShow">
+           <div class="turn" >
+            <h1 class="turnchange">Player Turn:</h1> 
+            <h1 id="Xturn" class="Xturn">X</h1>
+            <h1 id="Oturn" class="Oturn">O</h1>
+          </div>
+          </div>
+          <div class="container">
+            <button class="btns"></button>
+            <button class="btns"></button>
+            <button class="btns"></button>
+            <button class="btns"></button>
+            <button class="btns"></button>
+            <button class="btns"></button>
+            <button class="btns"></button>
+            <button class="btns"></button>
+            <button class="btns"></button>
+          </div>
+          <div>
+            <button id="resetBtn" class="resetBtn">Reset</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="winCon" class="win hide">
+      <div class="msgBox">
+        <h1 id="winMsg"  class="winmsg">Congratulation</h1>
+      </div>
+      <div class="otherBtns">
+        <button id="replayBtn" class="replayBtn">Play Again</button>
+        <button id="exitBtn" class="exitBtn">Exit</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
